@@ -1,0 +1,159 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* dads */
+
+body {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.container {
+	position: absolute;
+	width: 100%;
+}
+
+/* living */
+
+.living {
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.table {
+	background: url(images/table.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 470;
+	height: 280;
+	position: relative;
+}
+
+.row {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row-vertical {
+	height: 120px;
+	left: 0;
+	right: 0;
+}
+
+.top {
+	top: -140px;
+}
+
+.bottom {
+	bottom: -140px;
+	transform: rotate(180deg);
+}
+
+.row-horizontal {
+	width: 140px;
+	top: 0;
+	bottom: 0;
+}
+
+.left {
+	left: -160px;
+	transform: rotate(-90deg);
+}
+
+.right {
+	right: -160px;
+	transform: rotate(90deg);
+}
+
+.chair {
+	background: url(images/chair.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 115px;
+	height: 115px;
+	margin: 15px;
+	visibility: hidden;
+}
+
+/* buttons */
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 280px;
+	height: 90px;
+	right: 100px;
+	top: -135px;
+	position: absolute;
+}
+
+.button {
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	outline: none;
+	border: 4px solid black;
+	margin: 5px;
+	color: white;
+	font-size: 63px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.button-add {
+	background: green;
+}
+
+.button-remove {
+	background: red;
+}
+
+.random-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 280px;
+	height: 90px;
+	left: 100px;
+	top: -135px;
+	position: absolute;
+}
+
+.random {
+	width: 80px;
+	height: 80px;
+	margin: 5px;
+}
+
+.random-enable {
+	background: url(images/randomyes.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.random-disable {
+	background: url(images/randomno.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+/* alerts */
+
+.swal2-title, .swal2-html-container {
+	font-family: 'Roboto Slab';
+}
+
+.swal2-title {
+	font-size: 40px;
+}
+
+.swal2-html-container {
+	font-size: 28px;
+}
